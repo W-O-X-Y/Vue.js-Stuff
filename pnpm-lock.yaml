@@ -44,7 +44,7 @@ specifiers:
   markdownlint-cli: ^0.31.1
   npm-run-all: ^4.1.5
   nprogress: ^0.2.0
-  pinia: ^2.0.16
+  pinia: ^2.0.17
   postcss: ^8.4.14
   postcss-html: ^1.5.0
   prettier: ^2.7.1
@@ -79,13 +79,13 @@ specifiers:
   vue-tsc: ^0.38.5
 
 dependencies:
-  '@pinia/testing': 0.0.12_pinia@2.0.16+vue@3.2.37
+  '@pinia/testing': 0.0.12_pinia@2.0.17+vue@3.2.37
   '@vueuse/core': 8.9.3_vue@3.2.37
   '@vueuse/head': 0.7.6_vue@3.2.37
   axios: 0.27.2
   axios-case-converter: 0.9.0_axios@0.27.2
   nprogress: 0.2.0
-  pinia: 2.0.16_j6bzmzd4ujpabbp5objtwxyjp4
+  pinia: 2.0.17_j6bzmzd4ujpabbp5objtwxyjp4
   prism-theme-vars: 0.2.4
   vue: 3.2.37
   vue-demi: 0.13.4_vue@3.2.37
@@ -1719,8 +1719,8 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/message-compiler': 9.2.0-beta.37
-      '@intlify/shared': 9.2.0-beta.37
+      '@intlify/message-compiler': 9.2.0-beta.40
+      '@intlify/shared': 9.2.0-beta.40
       jsonc-eslint-parser: 1.4.1
       source-map: 0.6.1
       vue-i18n: 9.1.10_vue@3.2.37
@@ -1752,11 +1752,11 @@ packages:
       '@intlify/shared': 9.1.10
       source-map: 0.6.1
 
-  /@intlify/message-compiler/9.2.0-beta.37:
-    resolution: {integrity: sha512-7V5bJ5b5OqYTOa+Pfl4ugB6p/16yB4R/37i5vIaPzNW3Lhg8hdNoo+mtLPp1VKs1zmgpSjYi/rvDobGkHJvr2g==}
+  /@intlify/message-compiler/9.2.0-beta.40:
+    resolution: {integrity: sha512-6QWTSYewmkew4nsRqgkwTVuGFKzxVCOK8EXsPt15N+tN1g+OYjC3PfGA2dPB6cVkNxqA9mV/hNK02uHPWU9t0A==}
     engines: {node: '>= 14'}
     dependencies:
-      '@intlify/shared': 9.2.0-beta.37
+      '@intlify/shared': 9.2.0-beta.40
       source-map: 0.6.1
     dev: true
 
@@ -1776,8 +1776,8 @@ packages:
     resolution: {integrity: sha512-Om54xJeo1Vw+K1+wHYyXngE8cAbrxZHpWjYzMR9wCkqbhGtRV5VLhVc214Ze2YatPrWlS2WSMOWXR8JktX/IgA==}
     engines: {node: '>= 10'}
 
-  /@intlify/shared/9.2.0-beta.37:
-    resolution: {integrity: sha512-TVh69KwsY1A4Vo/ODJEp9NPW9O6zO1id4hwohaMdcibPdTp9ieX00QU9OiPRJ8Iz6W6A9xjU0Q30RAX1ba4+5g==}
+  /@intlify/shared/9.2.0-beta.40:
+    resolution: {integrity: sha512-xWz+SFjgt/LfaSbbHVn+V7gmvX4ZNP3cIFta790GWZ/tEgwJeC3tkV7i45iUbZ4ZimOerFgKH05b7qvJlKb6RQ==}
     engines: {node: '>= 14'}
     dev: true
 
@@ -1797,7 +1797,7 @@ packages:
         optional: true
     dependencies:
       '@intlify/bundle-utils': 3.1.0_vue-i18n@9.1.10
-      '@intlify/shared': 9.2.0-beta.37
+      '@intlify/shared': 9.2.0-beta.40
       '@rollup/pluginutils': 4.2.1
       debug: 4.3.4
       fast-glob: 3.2.11
@@ -1909,12 +1909,12 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@pinia/testing/0.0.12_pinia@2.0.16+vue@3.2.37:
+  /@pinia/testing/0.0.12_pinia@2.0.17+vue@3.2.37:
     resolution: {integrity: sha512-OGJ5kZihiuNua9trREAVLiv8wAlxT2+gZAz3Cen1L4ch51MbSgY5/nbo9htYsP2my9dhbggBhecgYWlhejhRcQ==}
     peerDependencies:
       pinia: '>=2.0.14'
     dependencies:
-      pinia: 2.0.16_j6bzmzd4ujpabbp5objtwxyjp4
+      pinia: 2.0.17_j6bzmzd4ujpabbp5objtwxyjp4
       vue-demi: 0.13.4_vue@3.2.37
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -9188,8 +9188,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /pinia/2.0.16_j6bzmzd4ujpabbp5objtwxyjp4:
-    resolution: {integrity: sha512-9/LMVO+/epny1NBfC77vnps4g3JRezxhhoF1xLUk8mZkUIxVnwfEAIRiAX8mYBTD/KCwZqnDMqXc8w3eU0FQGg==}
+  /pinia/2.0.17_j6bzmzd4ujpabbp5objtwxyjp4:
+    resolution: {integrity: sha512-AtwLwEWQgIjofjgeFT+nxbnK5lT2QwQjaHNEDqpsi2AiCwf/NY78uWTeHUyEhiiJy8+sBmw0ujgQMoQbWiZDfA==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
